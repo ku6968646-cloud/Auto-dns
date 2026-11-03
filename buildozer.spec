@@ -27,6 +27,9 @@ orientation = portrait
 # (list) Permissions
 android.permissions = INTERNET, ACCESS_NETWORK_STATE
 
+# (str) Android NDK version to use (Error မတက်အောင် လိုအပ်သော NDK version ကို သတ်မှတ်ခြင်း)
+android.ndk = 25b
+
 [buildozer]
 log_level = 2
 warn_on_root = 1
