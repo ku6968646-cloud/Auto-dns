@@ -9,4 +9,5 @@ android.permissions = INTERNET, ACCESS_NETWORK_STATE
 
 [buildozer]
 log_level = 2
+warn_on_root = 1
 
