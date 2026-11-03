@@ -19,7 +19,7 @@ source.dir = .
 version = 1.0
 
 # (list) Application requirements
-requirements = python3,kivy
+requirements = python3==3.11,kivy
 
 # (str) Supported orientation
 orientation = portrait
@@ -27,7 +27,7 @@ orientation = portrait
 # (list) Permissions
 android.permissions = INTERNET, ACCESS_NETWORK_STATE
 
-# (str) Android NDK version to use (Error မတက်အောင် လိုအပ်သော NDK version ကို သတ်မှတ်ခြင်း)
+# (str) Android NDK version to use
 android.ndk = 25b
 
 [buildozer]
